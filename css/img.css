@@ -1,0 +1,51 @@
+body {
+  margin: auto;
+  background-color: #581845;
+  background-image: url(../imagenes/fondo-sombrilla.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#cuerpo {
+  margin: auto;
+  width: 70%;
+}
+
+#galeria {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cajon {
+  width: 250px;
+  height: 250px;
+  background-color: #6A0056;
+  margin: 10px 5px;
+}
+
+.imagen:hover {
+  opacity: 0.5;
+}
+
+.imagen {
+  width: 100%;
+  height:200px;
+  background-image: url(../imagenes/craftman.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.texto {
+  color: #fff;
+  text-align: center;
+  background-color: #98083F;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 0px;
+  font-family: sans-serif;
+  height: 50px;
+  box-sizing: border-box;
+}
